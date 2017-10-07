@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/passtxt"
+        android:layout_weight="0.31"
+        android:enabled="false"
+        android:numeric="integer"
+        android:hint="Passcode"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_weight="0.04">
+
+        <Button
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/b1"
+            android:layout_weight="1"
+            android:onClick="btn1Click"/>
+
+        <Button
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/b2"
+            android:layout_weight="1"
+            android:onClick="btn2Click"/>
+
+        <Button
+            android:text="3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/b3"
+            android:layout_weight="1"
+            android:onClick="btn3Click"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_weight="0.04">
+
+        <Button
+            android:text="4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/b4"
+            android:layout_weight="1"
+            android:onClick="btn4Click"/>
+
+        <Button
+            android:text="5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/b5"
+            android:layout_weight="1"
+            android:onClick="btn5Click"/>
+
+        <Button
+            android:text="6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/b6"
+            android:layout_weight="1"
+            android:onClick="btn6Click"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_weight="0.04">
+
+        <Button
+            android:text="7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/b7"
+            android:layout_weight="1"
+            android:onClick="btn7Click"/>
+
+        <Button
+            android:text="8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/b8"
+            android:layout_weight="1"
+            android:onClick="btn8Click"/>
+
+        <Button
+            android:text="9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/b9"
+            android:layout_weight="1"
+            android:onClick="btn9Click"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_weight="0.04">
+
+
+        <Button
+            android:text="Clear"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/bclr"
+            android:layout_weight="1"
+            android:onClick="btnClear"/>
+        <Button
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/b0"
+            android:layout_weight="1"
+            android:onClick="btn0Click"/>
+        <Button
+            android:text="Next"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/bnext"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:onClick="btnNext"/>
+
+    </LinearLayout>
+</LinearLayout>

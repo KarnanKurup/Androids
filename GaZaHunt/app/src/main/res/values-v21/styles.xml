@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/background_dark</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorAccent">@android:color/holo_green_dark</item>
+        <item name="android:navigationBarColor">@android:color/background_light</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:textColorPrimary">@android:color/holo_green_dark</item>
+        <item name="android:textColorPrimaryInverse">@android:color/holo_orange_dark</item>
+        <item name="android:textColorSecondary">@android:color/holo_green_light</item>
+    </style>
+</resources>

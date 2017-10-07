@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">vPesa</string>
+    <string name="action_settings">Settings</string>
+    <string name="et_uid">Aadhar Card No</string>
+    <string name="et_name">Name</string>
+    <string name="et_phone">Mobile No</string>
+    <string name="btnbacktxt">I am Back</string>
+    <string name="btnnewtxt">I am New</string>
+    <string name="title_activity_client">vPesa</string>
+</resources>
